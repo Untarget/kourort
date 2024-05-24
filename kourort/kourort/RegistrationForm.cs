@@ -173,7 +173,6 @@ namespace kourort
                 MessageBox.Show("Укажите кто вы");
                 return false;
             }
-            return false;
         }
         private void KourortUserCheckBox_CheckedChanged(object sender, EventArgs e)
         {

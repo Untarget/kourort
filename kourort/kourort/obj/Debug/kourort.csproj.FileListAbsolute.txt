@@ -41,3 +41,5 @@ C:\Users\usotsuke\Documents\GitHub\kourort\kourort\kourort\obj\Debug\kourort.csp
 C:\Users\usotsuke\Documents\GitHub\kourort\kourort\kourort\obj\Debug\kourort.exe
 C:\Users\usotsuke\Documents\GitHub\kourort\kourort\kourort\obj\Debug\kourort.pdb
 C:\Users\usotsuke\Documents\GitHub\kourort\kourort\kourort\obj\Debug\kourort.RegistrationForm.resources
+C:\Users\usotsuke\Documents\GitHub\kourort\kourort\kourort\obj\Debug\kourort.passwordForm.resources
+C:\Users\usotsuke\Documents\GitHub\kourort\kourort\kourort\obj\Debug\kourort.ResetPasswordForm.resources

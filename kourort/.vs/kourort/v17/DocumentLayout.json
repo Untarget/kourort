@@ -3,28 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|solutionrelative:kourort\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|c:\\users\\usotsuke\\documents\\github\\kourort\\kourort\\kourort\\passwordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|solutionrelative:kourort\\passwordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|c:\\users\\usotsuke\\documents\\github\\kourort\\kourort\\kourort\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|solutionrelative:kourort\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\generalkourortuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|solutionrelative:kourort\\generalkourortuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|c:\\users\\usotsuke\\documents\\github\\kourort\\kourort\\kourort\\passwordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|solutionrelative:kourort\\passwordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\generaluserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|solutionrelative:kourort\\generaluserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|c:\\users\\usotsuke\\documents\\github\\kourort\\kourort\\kourort\\resetpasswordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|solutionrelative:kourort\\resetpasswordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|c:\\users\\usotsuke\\documents\\github\\kourort\\kourort\\kourort\\resetpasswordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|solutionrelative:kourort\\resetpasswordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|c:\\users\\usotsuke\\documents\\github\\kourort\\kourort\\kourort\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|solutionrelative:kourort\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\authorizationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|solutionrelative:kourort\\authorizationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|c:\\users\\usotsuke\\documents\\github\\kourort\\kourort\\kourort\\passwordform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|solutionrelative:kourort\\passwordform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\authorizationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|solutionrelative:kourort\\authorizationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\authorizationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|solutionrelative:kourort\\authorizationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|c:\\users\\usotsuke\\documents\\github\\kourort\\kourort\\kourort\\resetpasswordform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|solutionrelative:kourort\\resetpasswordform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\cookies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|solutionrelative:kourort\\cookies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\generaluserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|solutionrelative:kourort\\generaluserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\registrationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,16 +59,16 @@
       "RelativeMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|solutionrelative:kourort\\generaladminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\generalkourortuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|solutionrelative:kourort\\generalkourortuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\authorizationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|solutionrelative:kourort\\authorizationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|solutionrelative:kourort\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\cookies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|solutionrelative:kourort\\cookies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 283,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
@@ -64,14 +88,15 @@
               "RelativeDocumentMoniker": "kourort\\Cookies.cs",
               "ToolTip": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\Cookies.cs",
               "RelativeToolTip": "kourort\\Cookies.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAawBEAAAAaAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAawAkAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T19:40:34.406Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "GeneralUserForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\GeneralUserForm.cs",
               "RelativeDocumentMoniker": "kourort\\GeneralUserForm.cs",
@@ -84,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "GeneralAdminForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\GeneralAdminForm.cs",
               "RelativeDocumentMoniker": "kourort\\GeneralAdminForm.cs",
@@ -92,17 +117,18 @@
               "RelativeToolTip": "kourort\\GeneralAdminForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T19:41:22.387Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "AuthorizationForm.cs",
               "DocumentMoniker": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\AuthorizationForm.cs",
               "RelativeDocumentMoniker": "kourort\\AuthorizationForm.cs",
               "ToolTip": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\AuthorizationForm.cs",
               "RelativeToolTip": "kourort\\AuthorizationForm.cs",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAawHwAAAAZAAAA",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAIwMYAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T19:38:01.534Z",
               "IsPinned": true,
@@ -110,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AuthorizationForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\AuthorizationForm.cs",
               "RelativeDocumentMoniker": "kourort\\AuthorizationForm.cs",
@@ -123,45 +149,120 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "passwordForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\passwordForm.Designer.cs",
+              "RelativeDocumentMoniker": "kourort\\passwordForm.Designer.cs",
+              "ToolTip": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\passwordForm.Designer.cs",
+              "RelativeToolTip": "kourort\\passwordForm.Designer.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAD4v00AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T21:40:08.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ResetPasswordForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\ResetPasswordForm.Designer.cs",
+              "RelativeDocumentMoniker": "kourort\\ResetPasswordForm.Designer.cs",
+              "ToolTip": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\ResetPasswordForm.Designer.cs",
+              "RelativeToolTip": "kourort\\ResetPasswordForm.Designer.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAAPcAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T21:27:23.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "passwordForm.cs",
+              "DocumentMoniker": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\passwordForm.cs",
+              "RelativeDocumentMoniker": "kourort\\passwordForm.cs",
+              "ToolTip": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\passwordForm.cs",
+              "RelativeToolTip": "kourort\\passwordForm.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA1wCwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T21:25:34.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResetPasswordForm.cs",
+              "DocumentMoniker": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\ResetPasswordForm.cs",
+              "RelativeDocumentMoniker": "kourort\\ResetPasswordForm.cs",
+              "ToolTip": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\ResetPasswordForm.cs",
+              "RelativeToolTip": "kourort\\ResetPasswordForm.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAYwKYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T21:12:46.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "passwordForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\passwordForm.cs",
+              "RelativeDocumentMoniker": "kourort\\passwordForm.cs",
+              "ToolTip": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\passwordForm.cs [Design]",
+              "RelativeToolTip": "kourort\\passwordForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T21:12:40.056Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResetPasswordForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\ResetPasswordForm.cs",
+              "RelativeDocumentMoniker": "kourort\\ResetPasswordForm.cs",
+              "ToolTip": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\ResetPasswordForm.cs [Design]",
+              "RelativeToolTip": "kourort\\ResetPasswordForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T21:09:10.143Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "RegistrationForm.cs",
               "DocumentMoniker": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\RegistrationForm.cs",
               "RelativeDocumentMoniker": "kourort\\RegistrationForm.cs",
               "ToolTip": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\RegistrationForm.cs",
               "RelativeToolTip": "kourort\\RegistrationForm.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAUwBYAAABKAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAawBgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T20:10:56.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "GeneralKourortUser.cs [Design]",
               "DocumentMoniker": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\GeneralKourortUser.cs",
               "RelativeDocumentMoniker": "kourort\\GeneralKourortUser.cs",
               "ToolTip": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\GeneralKourortUser.cs [Design]",
               "RelativeToolTip": "kourort\\GeneralKourortUser.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T19:51:40.347Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-24T19:51:40.347Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "RegistrationForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\RegistrationForm.Designer.cs",
               "RelativeDocumentMoniker": "kourort\\RegistrationForm.Designer.cs",
               "ToolTip": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\RegistrationForm.Designer.cs",
               "RelativeToolTip": "kourort\\RegistrationForm.Designer.cs",
-              "ViewState": "AQIAANMAAAAAAAAAAADwv+EAAAAAAAAA",
+              "ViewState": "AQIAAMEAAAAAAAAAAADwv+UAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T20:26:33.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "AuthorizationForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\AuthorizationForm.Designer.cs",
               "RelativeDocumentMoniker": "kourort\\AuthorizationForm.Designer.cs",
@@ -174,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\Program.cs",
               "RelativeDocumentMoniker": "kourort\\Program.cs",

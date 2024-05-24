@@ -220,8 +220,12 @@
             this.Controls.Add(this.UserCheckBox);
             this.Controls.Add(this.KourortUserCheckBox);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "RegistrationForm";
-            this.Text = "RegistrationForm";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Регистрация";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.RegistrationForm_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();

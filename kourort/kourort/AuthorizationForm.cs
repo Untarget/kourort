@@ -193,5 +193,12 @@ namespace kourort
         {
             Application.Exit();
         }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            ResetPasswordForm form = new ResetPasswordForm();
+            form.Show();
+        }
     }
 }
