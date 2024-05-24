@@ -146,6 +146,12 @@
     <EmbeddedResource Include="AuthorizationForm.resx">
       <DependentUpon>AuthorizationForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GeneralAdminForm.resx">
+      <DependentUpon>GeneralAdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralKourortUser.resx">
+      <DependentUpon>GeneralKourortUser.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="passwordForm.resx">
       <DependentUpon>passwordForm.cs</DependentUpon>
     </EmbeddedResource>
