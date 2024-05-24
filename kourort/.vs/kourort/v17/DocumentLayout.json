@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|c:\\users\\usotsuke\\documents\\github\\kourort\\kourort\\kourort\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9B645A61-E30C-4272-8648-742EE63781C3}|kourort\\kourort.csproj|solutionrelative:kourort\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\Form1.cs",
+              "RelativeDocumentMoniker": "kourort\\Form1.cs",
+              "ToolTip": "C:\\Users\\usotsuke\\Documents\\GitHub\\kourort\\kourort\\kourort\\Form1.cs [Design]",
+              "RelativeToolTip": "kourort\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T19:36:21.534Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
