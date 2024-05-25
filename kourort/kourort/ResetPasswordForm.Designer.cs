@@ -71,6 +71,7 @@
             this.label6.Size = new System.Drawing.Size(65, 25);
             this.label6.TabIndex = 27;
             this.label6.Text = "Логин";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // loginTextBox
             // 
@@ -79,6 +80,8 @@
             this.loginTextBox.Name = "loginTextBox";
             this.loginTextBox.Size = new System.Drawing.Size(239, 33);
             this.loginTextBox.TabIndex = 26;
+            this.loginTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.loginTextBox.TextChanged += new System.EventHandler(this.loginTextBox_TextChanged);
             // 
             // label5
             // 
@@ -89,6 +92,7 @@
             this.label5.Size = new System.Drawing.Size(80, 25);
             this.label5.TabIndex = 25;
             this.label5.Text = "Возраст";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // ageTextBox
             // 
@@ -97,6 +101,8 @@
             this.ageTextBox.Name = "ageTextBox";
             this.ageTextBox.Size = new System.Drawing.Size(212, 33);
             this.ageTextBox.TabIndex = 24;
+            this.ageTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ageTextBox.TextChanged += new System.EventHandler(this.ageTextBox_TextChanged);
             // 
             // label4
             // 
@@ -107,6 +113,7 @@
             this.label4.Size = new System.Drawing.Size(93, 25);
             this.label4.TabIndex = 23;
             this.label4.Text = "Отчество";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // lastNameTextBox
             // 
@@ -115,6 +122,8 @@
             this.lastNameTextBox.Name = "lastNameTextBox";
             this.lastNameTextBox.Size = new System.Drawing.Size(212, 33);
             this.lastNameTextBox.TabIndex = 22;
+            this.lastNameTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.lastNameTextBox.TextChanged += new System.EventHandler(this.lastNameTextBox_TextChanged);
             // 
             // label3
             // 
@@ -125,6 +134,7 @@
             this.label3.Size = new System.Drawing.Size(49, 25);
             this.label3.TabIndex = 21;
             this.label3.Text = "Имя";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // firstNameTextBox
             // 
@@ -133,6 +143,8 @@
             this.firstNameTextBox.Name = "firstNameTextBox";
             this.firstNameTextBox.Size = new System.Drawing.Size(212, 33);
             this.firstNameTextBox.TabIndex = 20;
+            this.firstNameTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.firstNameTextBox.TextChanged += new System.EventHandler(this.firstNameTextBox_TextChanged);
             // 
             // label8
             // 
@@ -143,6 +155,7 @@
             this.label8.Size = new System.Drawing.Size(91, 25);
             this.label8.TabIndex = 19;
             this.label8.Text = "Фамилия";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // secondNameTextBox
             // 
@@ -151,6 +164,8 @@
             this.secondNameTextBox.Name = "secondNameTextBox";
             this.secondNameTextBox.Size = new System.Drawing.Size(212, 33);
             this.secondNameTextBox.TabIndex = 18;
+            this.secondNameTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.secondNameTextBox.TextChanged += new System.EventHandler(this.secondNameTextBox_TextChanged);
             // 
             // UserCheckBox
             // 
@@ -185,6 +200,7 @@
             this.label9.Size = new System.Drawing.Size(79, 25);
             this.label9.TabIndex = 15;
             this.label9.Text = "Кто вы?";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // nextButton
             // 

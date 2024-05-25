@@ -43,3 +43,12 @@ C:\Users\usotsuke\Documents\GitHub\kourort\kourort\kourort\obj\Debug\kourort.pdb
 C:\Users\usotsuke\Documents\GitHub\kourort\kourort\kourort\obj\Debug\kourort.RegistrationForm.resources
 C:\Users\usotsuke\Documents\GitHub\kourort\kourort\kourort\obj\Debug\kourort.passwordForm.resources
 C:\Users\usotsuke\Documents\GitHub\kourort\kourort\kourort\obj\Debug\kourort.ResetPasswordForm.resources
+C:\Users\usotsuke\Documents\GitHub\kourort\kourort\kourort\obj\Debug\kourort.GeneralAdminForm.resources
+C:\Users\usotsuke\Documents\GitHub\kourort\kourort\kourort\obj\Debug\kourort.GeneralKourortUser.resources
+C:\Users\usotsuke\Documents\GitHub\kourort\kourort\kourort\obj\Debug\kourort.SelectMindKourortForm.resources
+C:\Users\usotsuke\Documents\GitHub\kourort\kourort\kourort\obj\Debug\kourort.CreatePeopleKourortForm.resources
+C:\Users\usotsuke\Documents\GitHub\kourort\kourort\kourort\obj\Debug\kourort.GetPeoplesKourortForm.resources
+C:\Users\usotsuke\Documents\GitHub\kourort\kourort\kourort\obj\Debug\kourort.CheckInvitedPeopleForm.resources
+C:\Users\usotsuke\Documents\GitHub\kourort\kourort\kourort\obj\Debug\kourort.GeneralUserForm.resources
+C:\Users\usotsuke\Documents\GitHub\kourort\kourort\kourort\obj\Debug\kourort.RegistrateChildForm.resources
+C:\Users\usotsuke\Documents\GitHub\kourort\kourort\kourort\obj\Debug\kourort.CheckMindQueriesForm.resources

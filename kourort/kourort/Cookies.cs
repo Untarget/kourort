@@ -19,6 +19,8 @@ namespace Warehouse
         public static int post { get { return Post; } set { Post = value; } }
         static private int iD;
         public static int ID { get { return iD; } set { iD = value; } }
+        static private int kourort_iD;
+        public static int kourort_ID { get { return kourort_iD; } set { kourort_iD = value; } }
 
     }
 }

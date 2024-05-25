@@ -50,6 +50,7 @@
             this.passwordTextBox.Name = "passwordTextBox";
             this.passwordTextBox.Size = new System.Drawing.Size(239, 33);
             this.passwordTextBox.TabIndex = 28;
+            this.passwordTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // button1
             // 

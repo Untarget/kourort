@@ -151,7 +151,7 @@ namespace kourort
                 using (var query = conn.CreateCommand())
                 {
                     query.Parameters.Clear();
-                    query.CommandText = "SELECT `secondname`, `firstname`, `lastname`, `post_ID`, `ID` FROM `user` WHERE `ID`=(SELECT `user_ID` FROM `authorization` WHERE (`login` = @login AND `password` = @password));";
+                    query.CommandText = "SELECT `secondname`, `firstname`, `lastname`, `post_ID`, `ID`,`kourort_ID` FROM `user` WHERE `ID`=(SELECT `user_ID` FROM `authorization` WHERE (`login` = @login AND `password` = @password));";
                     query.Parameters.AddWithValue("@login", login);
                     query.Parameters.AddWithValue("@password", password);
                     using (var reader = query.ExecuteReader())
@@ -169,6 +169,15 @@ namespace kourort
                                     {
                                         Cookies.post = reader.GetInt32(3);
                                         Cookies.ID = reader.GetInt32(4);
+                                        try
+                                        {
+                                            Cookies.kourort_ID = reader.GetInt32(5);
+                                        }
+                                        catch
+                                        {
+
+                                        }
+                                        
                                         return true;
                                     }
 
@@ -199,6 +208,26 @@ namespace kourort
             this.Hide();
             ResetPasswordForm form = new ResetPasswordForm();
             form.Show();
+        }
+
+        private void passwordTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void loginTextBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

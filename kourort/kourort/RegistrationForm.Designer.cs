@@ -87,6 +87,7 @@
             this.secondNameTextBox.Name = "secondNameTextBox";
             this.secondNameTextBox.Size = new System.Drawing.Size(212, 33);
             this.secondNameTextBox.TabIndex = 3;
+            this.secondNameTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label2
             // 
@@ -115,6 +116,7 @@
             this.firstNameTextBox.Name = "firstNameTextBox";
             this.firstNameTextBox.Size = new System.Drawing.Size(212, 33);
             this.firstNameTextBox.TabIndex = 5;
+            this.firstNameTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label4
             // 
@@ -133,6 +135,7 @@
             this.lastNameTextBox.Name = "lastNameTextBox";
             this.lastNameTextBox.Size = new System.Drawing.Size(212, 33);
             this.lastNameTextBox.TabIndex = 7;
+            this.lastNameTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label5
             // 
@@ -151,6 +154,7 @@
             this.ageTextBox.Name = "ageTextBox";
             this.ageTextBox.Size = new System.Drawing.Size(212, 33);
             this.ageTextBox.TabIndex = 9;
+            this.ageTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label6
             // 
@@ -169,6 +173,7 @@
             this.loginTextBox.Name = "loginTextBox";
             this.loginTextBox.Size = new System.Drawing.Size(212, 33);
             this.loginTextBox.TabIndex = 11;
+            this.loginTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label7
             // 
@@ -187,6 +192,7 @@
             this.passwordTextBox.Name = "passwordTextBox";
             this.passwordTextBox.Size = new System.Drawing.Size(200, 33);
             this.passwordTextBox.TabIndex = 13;
+            this.passwordTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // registrationTextBox
             // 
