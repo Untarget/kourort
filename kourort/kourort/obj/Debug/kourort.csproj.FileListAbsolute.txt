@@ -52,3 +52,6 @@ C:\Users\usotsuke\Documents\GitHub\kourort\kourort\kourort\obj\Debug\kourort.Che
 C:\Users\usotsuke\Documents\GitHub\kourort\kourort\kourort\obj\Debug\kourort.GeneralUserForm.resources
 C:\Users\usotsuke\Documents\GitHub\kourort\kourort\kourort\obj\Debug\kourort.RegistrateChildForm.resources
 C:\Users\usotsuke\Documents\GitHub\kourort\kourort\kourort\obj\Debug\kourort.CheckMindQueriesForm.resources
+C:\Users\usotsuke\Documents\GitHub\kourort\kourort\kourort\obj\Debug\kourort.admin.AdminQueriesType1Form.resources
+C:\Users\usotsuke\Documents\GitHub\kourort\kourort\kourort\obj\Debug\kourort.admin.AdminQueriesType2Form.resources
+C:\Users\usotsuke\Documents\GitHub\kourort\kourort\kourort\obj\Debug\kourort.admin.CheckAllUsers.resources

@@ -98,7 +98,7 @@ namespace kourort
                 using (var query = conn.CreateCommand())
                 {
                     
-                    query.CommandText = "INSERT INTO `kourort`.`amdin-queries` (`process`, `query`, `user_ID`, `user_post_ID`, `kourort_ID`) VALUES (@process, @query, @userid, @idpost, @idkourort);";
+                    query.CommandText = "INSERT INTO `kourort`.`admin-queries` (`process`, `query`, `user_ID`, `user_post_ID`, `kourort_ID`) VALUES (@process, @query, @userid, @idpost, @idkourort);";
                     query.Parameters.AddWithValue("@userid", Cookies.ID);
                     query.Parameters.AddWithValue("@idpost", Cookies.post);
                     query.Parameters.AddWithValue("@idkourort", kourortListBox.SelectedIndex+1);

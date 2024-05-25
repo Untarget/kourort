@@ -98,112 +98,139 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CheckInvitedPeopleForm.cs">
+    <Compile Include="admin\AdminQueriesType1Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CheckInvitedPeopleForm.Designer.cs">
+    <Compile Include="admin\AdminQueriesType1Form.Designer.cs">
+      <DependentUpon>AdminQueriesType1Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admin\AdminQueriesType2Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin\AdminQueriesType2Form.Designer.cs">
+      <DependentUpon>AdminQueriesType2Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admin\CheckAllUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin\CheckAllUsers.Designer.cs">
+      <DependentUpon>CheckAllUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="manager\CheckInvitedPeopleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="manager\CheckInvitedPeopleForm.Designer.cs">
       <DependentUpon>CheckInvitedPeopleForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="CheckMindQueriesForm.cs">
+    <Compile Include="usual user\CheckMindQueriesForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CheckMindQueriesForm.Designer.cs">
+    <Compile Include="usual user\CheckMindQueriesForm.Designer.cs">
       <DependentUpon>CheckMindQueriesForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Cookies.cs" />
-    <Compile Include="AuthorizationForm.cs">
+    <Compile Include="authorization\AuthorizationForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AuthorizationForm.Designer.cs">
+    <Compile Include="authorization\AuthorizationForm.Designer.cs">
       <DependentUpon>AuthorizationForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="CreatePeopleKourortForm.cs">
+    <Compile Include="manager\CreatePeopleKourortForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CreatePeopleKourortForm.Designer.cs">
+    <Compile Include="manager\CreatePeopleKourortForm.Designer.cs">
       <DependentUpon>CreatePeopleKourortForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="GeneralAdminForm.cs">
+    <Compile Include="admin\GeneralAdminForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GeneralAdminForm.Designer.cs">
+    <Compile Include="admin\GeneralAdminForm.Designer.cs">
       <DependentUpon>GeneralAdminForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="GeneralKourortUser.cs">
+    <Compile Include="manager\GeneralKourortUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GeneralKourortUser.Designer.cs">
+    <Compile Include="manager\GeneralKourortUser.Designer.cs">
       <DependentUpon>GeneralKourortUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="GeneralUserForm.cs">
+    <Compile Include="usual user\GeneralUserForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GeneralUserForm.Designer.cs">
+    <Compile Include="usual user\GeneralUserForm.Designer.cs">
       <DependentUpon>GeneralUserForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="GetPeoplesKourortForm.cs">
+    <Compile Include="manager\GetPeoplesKourortForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GetPeoplesKourortForm.Designer.cs">
+    <Compile Include="manager\GetPeoplesKourortForm.Designer.cs">
       <DependentUpon>GetPeoplesKourortForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="passwordForm.cs">
+    <Compile Include="authorization\passwordForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="passwordForm.Designer.cs">
+    <Compile Include="authorization\passwordForm.Designer.cs">
       <DependentUpon>passwordForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RegistrateChildForm.cs">
+    <Compile Include="usual user\RegistrateChildForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegistrateChildForm.Designer.cs">
+    <Compile Include="usual user\RegistrateChildForm.Designer.cs">
       <DependentUpon>RegistrateChildForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="RegistrationForm.cs">
+    <Compile Include="authorization\RegistrationForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegistrationForm.Designer.cs">
+    <Compile Include="authorization\RegistrationForm.Designer.cs">
       <DependentUpon>RegistrationForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ResetPasswordForm.cs">
+    <Compile Include="authorization\ResetPasswordForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ResetPasswordForm.Designer.cs">
+    <Compile Include="authorization\ResetPasswordForm.Designer.cs">
       <DependentUpon>ResetPasswordForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="SelectMindKourortForm.cs">
+    <Compile Include="manager\SelectMindKourortForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SelectMindKourortForm.Designer.cs">
+    <Compile Include="manager\SelectMindKourortForm.Designer.cs">
       <DependentUpon>SelectMindKourortForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AuthorizationForm.resx">
+    <EmbeddedResource Include="admin\AdminQueriesType1Form.resx">
+      <DependentUpon>AdminQueriesType1Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin\AdminQueriesType2Form.resx">
+      <DependentUpon>AdminQueriesType2Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin\CheckAllUsers.resx">
+      <DependentUpon>CheckAllUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="authorization\AuthorizationForm.resx">
       <DependentUpon>AuthorizationForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CheckInvitedPeopleForm.resx">
+    <EmbeddedResource Include="manager\CheckInvitedPeopleForm.resx">
       <DependentUpon>CheckInvitedPeopleForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CheckMindQueriesForm.resx">
+    <EmbeddedResource Include="usual user\CheckMindQueriesForm.resx">
       <DependentUpon>CheckMindQueriesForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CreatePeopleKourortForm.resx">
+    <EmbeddedResource Include="manager\CreatePeopleKourortForm.resx">
       <DependentUpon>CreatePeopleKourortForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GeneralAdminForm.resx">
+    <EmbeddedResource Include="admin\GeneralAdminForm.resx">
       <DependentUpon>GeneralAdminForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GeneralKourortUser.resx">
+    <EmbeddedResource Include="manager\GeneralKourortUser.resx">
       <DependentUpon>GeneralKourortUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GeneralUserForm.resx">
+    <EmbeddedResource Include="usual user\GeneralUserForm.resx">
       <DependentUpon>GeneralUserForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GetPeoplesKourortForm.resx">
+    <EmbeddedResource Include="manager\GetPeoplesKourortForm.resx">
       <DependentUpon>GetPeoplesKourortForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="passwordForm.resx">
+    <EmbeddedResource Include="authorization\passwordForm.resx">
       <DependentUpon>passwordForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -215,16 +242,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="RegistrateChildForm.resx">
+    <EmbeddedResource Include="usual user\RegistrateChildForm.resx">
       <DependentUpon>RegistrateChildForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RegistrationForm.resx">
+    <EmbeddedResource Include="authorization\RegistrationForm.resx">
       <DependentUpon>RegistrationForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ResetPasswordForm.resx">
+    <EmbeddedResource Include="authorization\ResetPasswordForm.resx">
       <DependentUpon>ResetPasswordForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectMindKourortForm.resx">
+    <EmbeddedResource Include="manager\SelectMindKourortForm.resx">
       <DependentUpon>SelectMindKourortForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
@@ -241,5 +268,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
