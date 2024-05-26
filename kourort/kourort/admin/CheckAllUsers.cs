@@ -47,7 +47,6 @@ namespace kourort.admin
                                 dataGridView1.Rows[index].Cells[6].Value = reader.GetInt32(6);
                             }
                             catch { }
-
                         }
                     }
                 }

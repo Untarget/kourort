@@ -114,7 +114,6 @@
             this.Name = "SelectMindKourortForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Load += new System.EventHandler(this.SelectMindKourortForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

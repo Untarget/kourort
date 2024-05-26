@@ -1,12 +1,5 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Warehouse;
 
@@ -23,7 +16,7 @@ namespace kourort
         {
             SelectMindKourortForm form = new SelectMindKourortForm();
             form.Show();
-            
+
         }
         private void getLabels()
         {
@@ -48,8 +41,8 @@ namespace kourort
                     {
                         while (reader.Read())
                         {
-                            
-                                kourortLabel.Text=reader.GetString(0);
+
+                            kourortLabel.Text = reader.GetString(0);
                         }
                     }
                 }
@@ -57,7 +50,7 @@ namespace kourort
         }
         private void GeneralKourortUser_Load(object sender, EventArgs e)
         {
-            if(haveKourort())
+            if (haveKourort())
             {
                 button1.Enabled = false;
                 CreatePeoples.Enabled = true;
@@ -119,11 +112,6 @@ namespace kourort
         private void GeneralKourortUser_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
-        }
-
-        private void kourortLabel_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

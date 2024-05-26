@@ -1,14 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using Warehouse;
 
 namespace kourort.admin
 {
@@ -18,11 +10,13 @@ namespace kourort.admin
         {
             InitializeComponent();
         }
-
         private void AdminQueriesForm_Load(object sender, EventArgs e)
         {
             AddDataGridTable();
         }
+        /// <summary>
+        /// Обновление таблицы
+        /// </summary>
         private void AddDataGridTable()
         {
             dataGridView1.Rows.Clear();
@@ -35,7 +29,6 @@ namespace kourort.admin
             };
             using (var conn = new MySqlConnection(builder.ConnectionString))
             {
-
                 conn.Open();
                 using (var query = conn.CreateCommand())
                 {
@@ -49,17 +42,20 @@ namespace kourort.admin
                             dataGridView1.Rows[index].Cells[1].Value = reader.GetString(1).ToString();
                             dataGridView1.Rows[index].Cells[2].Value = reader.GetString(2).ToString();
                             dataGridView1.Rows[index].Cells[3].Value = reader.GetInt32(3).ToString();
-
                         }
                     }
                 }
             }
 
         }
-
+        /// <summary>
+        /// Кнопка принять
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
-            if(Int32.TryParse(ID_TextBox.Text, out int ID))
+            if (Int32.TryParse(ID_TextBox.Text, out int ID))
             {
                 var builder = new MySqlConnectionStringBuilder
                 {
@@ -77,11 +73,11 @@ namespace kourort.admin
                         int kourortID = 0;
                         query.CommandText = "SELECT count(*) FROM `admin-queries` WHERE `ID` = @id AND `type`=1";
                         query.Parameters.AddWithValue("@id", ID);
-                        using(var reader = query.ExecuteReader())
+                        using (var reader = query.ExecuteReader())
                         {
                             while (reader.Read())
                             {
-                                if(reader.GetInt32(0)==0)
+                                if (reader.GetInt32(0) == 0)
                                 {
                                     MessageBox.Show("Такого ID не существует");
                                     return;
@@ -113,7 +109,11 @@ namespace kourort.admin
             }
             AddDataGridTable();
         }
-
+        /// <summary>
+        /// Кнопка отказать
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button2_Click(object sender, EventArgs e)
         {
             if (Int32.TryParse(ID_TextBox.Text, out int ID))

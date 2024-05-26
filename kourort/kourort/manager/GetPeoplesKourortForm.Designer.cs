@@ -55,7 +55,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(800, 378);
             this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // Column1
             // 
@@ -111,7 +110,6 @@
             this.ID_TextBox.Size = new System.Drawing.Size(161, 33);
             this.ID_TextBox.TabIndex = 3;
             this.ID_TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.ID_TextBox.TextChanged += new System.EventHandler(this.ID_TextBox_TextChanged);
             // 
             // label1
             // 
@@ -122,7 +120,6 @@
             this.label1.Size = new System.Drawing.Size(34, 25);
             this.label1.TabIndex = 4;
             this.label1.Text = "ID:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // GetPeoplesKourortForm
             // 

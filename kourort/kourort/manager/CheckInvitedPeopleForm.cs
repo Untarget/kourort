@@ -12,7 +12,6 @@ namespace kourort
         {
             InitializeComponent();
         }
-
         private void CheckInvitedPeopleForm_Load(object sender, EventArgs e)
         {
             AddDataGridTable();
@@ -32,8 +31,8 @@ namespace kourort
         {
             dataGridView1.Rows.Clear();
             ID.Clear();
-        ChildrenID.Clear();
-        ChildrenFirstname.Clear();
+            ChildrenID.Clear();
+            ChildrenFirstname.Clear();
             ChildrenSecondname.Clear();
             ChildrenLastname.Clear();
             ChildrenAge.Clear();
@@ -64,7 +63,6 @@ namespace kourort
                             ID.Add(reader.GetInt32(1));
                         }
                     }
-
                     for (int i = 0; i < ChildrenID.Count; i++)
                     {
                         query.Parameters.Clear();
@@ -82,7 +80,6 @@ namespace kourort
                             }
                         }
                     }
-
                     for (int i = 0; i < PersonID.Count; i++)
                     {
                         query.Parameters.Clear();
@@ -120,7 +117,6 @@ namespace kourort
                 }
             }
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             if (Int32.TryParse(ID_TextBox.Text.Trim(), out int ID))

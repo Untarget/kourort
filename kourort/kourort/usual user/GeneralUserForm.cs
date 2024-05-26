@@ -18,7 +18,6 @@ namespace kourort
         {
             InitializeComponent();
         }
-
         private void GeneralUserForm_Load(object sender, EventArgs e)
         {
             setLabels();
@@ -29,19 +28,16 @@ namespace kourort
            lastnameLabel.Text = Cookies.lastname;
            secondnameLabel.Text = Cookies.secondname;
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             RegistrateChildForm registrateChildForm = new RegistrateChildForm();
             registrateChildForm.Show();
         }
-
         private void button2_Click(object sender, EventArgs e)
         {
             CheckMindQueriesForm check = new CheckMindQueriesForm();
             check.Show();
         }
-
         private void GeneralUserForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();

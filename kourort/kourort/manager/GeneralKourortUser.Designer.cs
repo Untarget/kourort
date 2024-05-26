@@ -121,7 +121,6 @@
             this.kourortLabel.Size = new System.Drawing.Size(73, 25);
             this.kourortLabel.TabIndex = 10;
             this.kourortLabel.Text = "Курорт";
-            this.kourortLabel.Click += new System.EventHandler(this.kourortLabel_Click);
             // 
             // GeneralKourortUser
             // 

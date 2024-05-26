@@ -14,42 +14,6 @@ namespace kourort
             getListBox();
         }
         private List<Int32> ChildrenID = new List<Int32>();
-        /*
-        private void addDataGridView()
-        {
-            ChildrenID.Clear();
-            var builder = new MySqlConnectionStringBuilder
-            {
-                Server = "localhost",
-                Database = "kourort",
-                UserID = "root",
-                Password = "QwertY1234",
-            };
-            using (var conn = new MySqlConnection(builder.ConnectionString))
-            {
-                conn.Open();
-                using (var query = conn.CreateCommand())
-                {
-                    query.CommandText = "SELECT `ID`, `firstname`, `secondname`, `lastname`, `age` FROM `children` WHERE `user_ID` = @user";
-                    query.Parameters.AddWithValue("@user", Cookies.ID);
-                    int i = 0;
-                    using(var reader = query.ExecuteReader())
-                    {
-                        while (reader.Read())
-                        {
-                            var index = dataGridView1.Rows.Add();
-                            dataGridView1.Rows[index].Cells[0].Value = reader.GetInt32(0).ToString();
-                            dataGridView1.Rows[index].Cells[0].Style.Format = "";
-                            dataGridView1.Rows[index].Cells[1].Value = reader.GetString(0);
-                            dataGridView1.Rows[index].Cells[2].Value = reader.GetString(1);
-                            dataGridView1.Rows[index].Cells[3].Value = reader.GetString(2);
-                            dataGridView1.Rows[index].Cells[4].Value = reader.GetValue(3).ToString();
-                        }
-                    }
-                }
-            }
-        }
-        */
         private List<string> kourorts = new List<string>();
         private void getListBox()
         {
@@ -78,7 +42,6 @@ namespace kourort
             listBox1.Items.AddRange(kourorts.ToArray());
 
         }
-
         private void nextButton_Click(object sender, EventArgs e)
         {
             if (validation())
@@ -148,7 +111,6 @@ namespace kourort
                 }
             }
         }
-
         private bool validation()
         {
 
@@ -192,12 +154,6 @@ namespace kourort
                 MessageBox.Show("Введите имя");
             }
             return false;
-        }
-
-
-        private void RegistrateChildForm_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

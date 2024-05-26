@@ -1,12 +1,5 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace kourort.admin
@@ -18,11 +11,9 @@ namespace kourort.admin
             InitializeComponent();
             AddDataGridTable();
         }
-
-        private void AdminQueriesType2Form_Load(object sender, EventArgs e)
-        {
-
-        }
+        /// <summary>
+        /// Обновление таблицы
+        /// </summary>
         private void AddDataGridTable()
         {
             dataGridView1.Rows.Clear();
@@ -35,7 +26,6 @@ namespace kourort.admin
             };
             using (var conn = new MySqlConnection(builder.ConnectionString))
             {
-
                 conn.Open();
                 using (var query = conn.CreateCommand())
                 {
@@ -49,18 +39,21 @@ namespace kourort.admin
                             dataGridView1.Rows[index].Cells[1].Value = reader.GetString(1).ToString();
                             dataGridView1.Rows[index].Cells[2].Value = reader.GetString(2).ToString();
                             dataGridView1.Rows[index].Cells[3].Value = reader.GetInt32(3).ToString();
-
                         }
                     }
                 }
             }
-
         }
+        /// <summary>
+        /// Кнопка принять
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
             if (Int32.TryParse(ID_TextBox.Text, out int ID))
             {
-                if(kourortNameTextBox.Text.Length > 0)
+                if (kourortNameTextBox.Text.Length > 0)
                 {
                     var builder = new MySqlConnectionStringBuilder
                     {
@@ -102,7 +95,7 @@ namespace kourort.admin
                                 {
                                     try
                                     {
-                                        kourortID = reader.GetInt32(0)+1;
+                                        kourortID = reader.GetInt32(0) + 1;
                                     }
                                     catch
                                     {
@@ -124,7 +117,6 @@ namespace kourort.admin
                                 while (reader.Read())
                                 {
                                     userID = reader.GetInt32(0);
-                                    
                                 }
                             }
                             query.Parameters.Clear();
@@ -139,7 +131,6 @@ namespace kourort.admin
                 {
                     MessageBox.Show("Введите название лагеря");
                 }
-                
             }
             else
             {
@@ -147,7 +138,11 @@ namespace kourort.admin
             }
             AddDataGridTable();
         }
-
+        /// <summary>
+        /// Кнопка отказать
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button2_Click(object sender, EventArgs e)
         {
             if (Int32.TryParse(ID_TextBox.Text, out int ID))

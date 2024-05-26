@@ -46,7 +46,6 @@ namespace kourort
                             firstname.Add(reader.GetString(1));
                             secondname.Add(reader.GetString(2));
                             lastname.Add(reader.GetString(3));
-
                         }
                     }
                     for (int i = 0; i < ID.Count; i++)

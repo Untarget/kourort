@@ -1,14 +1,5 @@
 ﻿using MySql.Data.MySqlClient;
-using Mysqlx.Crud;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace kourort
@@ -18,11 +9,10 @@ namespace kourort
         public RegistrationForm()
         {
             InitializeComponent();
-            
         }
         private void registrationTextBox_Click(object sender, EventArgs e)
         {
-            if(validation())
+            if (validation())
             {
                 if (!getExist())
                 {
@@ -45,12 +35,12 @@ namespace kourort
         private bool POST()
         {
             int userType = -1;
-            int userID=-1;
-            if(KourortUserCheckBox.Checked)
+            int userID = -1;
+            if (KourortUserCheckBox.Checked)
             {
                 userType = 2;
             }
-            if(UserCheckBox.Checked)
+            if (UserCheckBox.Checked)
             {
                 userType = 3;
             }
@@ -75,11 +65,11 @@ namespace kourort
                     query.ExecuteNonQuery();
                     query.Parameters.Clear();
                     query.CommandText = "SELECT max(ID) FROM `user`";
-                    using(var reader = query.ExecuteReader())
+                    using (var reader = query.ExecuteReader())
                     {
-                        while(reader.Read())
+                        while (reader.Read())
                         {
-                            userID=reader.GetInt32(0);
+                            userID = reader.GetInt32(0);
                         }
                     }
                     query.CommandText = "INSERT INTO `kourort`.`authorization` (`user_ID`, `login`, `password`) VALUES(@userid, @login, @password);";
@@ -90,7 +80,7 @@ namespace kourort
                     return true;
                 }
             }
-            return false;
+
         }
         private bool getExist()
         {
@@ -107,7 +97,7 @@ namespace kourort
                 using (var query = conn.CreateCommand())
                 {
                     query.CommandText = "SELECT COUNT(*) FROM `authorization` WHERE `login` = @login;";
-                    query.Parameters.AddWithValue("@login", loginTextBox.Text.Trim()); 
+                    query.Parameters.AddWithValue("@login", loginTextBox.Text.Trim());
                     using (var reader = query.ExecuteReader())
                     {
                         while (reader.Read())
@@ -149,7 +139,6 @@ namespace kourort
                                 MessageBox.Show("Укажите ваш логин");
                                 return false;
                             }
-
                         }
                         else
                         {
@@ -177,7 +166,7 @@ namespace kourort
         }
         private void KourortUserCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-            if(KourortUserCheckBox.Checked)
+            if (KourortUserCheckBox.Checked)
             {
                 if (UserCheckBox.Checked)
                 {

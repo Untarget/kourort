@@ -1,12 +1,5 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Warehouse;
 
@@ -17,9 +10,8 @@ namespace kourort
         public CreatePeopleKourortForm()
         {
             InitializeComponent();
-            
+
         }
-       
         private void CreatePeopleKourortForm_Load(object sender, EventArgs e)
         {
             AddInfo();
@@ -59,7 +51,7 @@ namespace kourort
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            if(validation())
+            if (validation())
             {
                 SetInfo();
                 MessageBox.Show("Данные были изменены");
@@ -68,7 +60,7 @@ namespace kourort
         }
         private bool validation()
         {
-            if(Int32.TryParse(age10TextBox.Text.Trim(), out int age10))
+            if (Int32.TryParse(age10TextBox.Text.Trim(), out int age10))
             {
                 if (Int32.TryParse(age11TextBox.Text.Trim(), out int age11))
                 {

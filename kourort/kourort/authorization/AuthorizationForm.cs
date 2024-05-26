@@ -11,7 +11,6 @@ namespace kourort
         {
             InitializeComponent();
         }
-
         private void POST_Button_Click(object sender, EventArgs e)
         {
             if (validate())
@@ -174,10 +173,7 @@ namespace kourort
                                             Cookies.kourort_ID = reader.GetInt32(5);
                                         }
                                         catch
-                                        {
-
-                                        }
-                                        
+                                        { }
                                         return true;
                                     }
 
@@ -189,7 +185,6 @@ namespace kourort
             }
             return false;
         }
-
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             this.Hide();
@@ -197,37 +192,15 @@ namespace kourort
             form.Show();
 
         }
-
         private void AuthorizationForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
         }
-
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             this.Hide();
             ResetPasswordForm form = new ResetPasswordForm();
             form.Show();
-        }
-
-        private void passwordTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void loginTextBox_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

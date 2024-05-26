@@ -22,7 +22,7 @@ namespace kourort
         private List<Int32> kourortID = new List<Int32>();
         private List<String> queryProcess = new List<String>();
         private List<String> queryText = new List<String>();
-        private int userIDInt=0;
+        private int userIDInt = 0;
         private void AddDataGridTable()
         {
             dataGridView1.Rows.Clear();
@@ -35,7 +35,7 @@ namespace kourort
             };
             using (var conn = new MySqlConnection(builder.ConnectionString))
             {
-                queryID.Clear();    
+                queryID.Clear();
                 queryProcess.Clear();
                 queryText.Clear();
                 userID.Clear();
@@ -69,11 +69,9 @@ namespace kourort
                                 dataGridView1.Rows[index].Cells[0].Value = queryID[i];
                                 dataGridView1.Rows[index].Cells[1].Value = queryProcess[i];
                                 dataGridView1.Rows[index].Cells[2].Value = queryText[i];
-                                dataGridView1.Rows[index].Cells[3].Value = reader.GetString(0) +" "+ reader.GetString(1)+" " + reader.GetString(2);
+                                dataGridView1.Rows[index].Cells[3].Value = reader.GetString(0) + " " + reader.GetString(1) + " " + reader.GetString(2);
                             }
-
                         }
-
                     }
                 }
             }
@@ -98,11 +96,11 @@ namespace kourort
                         {
                             query.CommandText = "SELECT count(*) FROM `kourort-queries` WHERE `kourort_ID`=@id;";
                             query.Parameters.AddWithValue("@id", Cookies.kourort_ID);
-                            using(var reader = query.ExecuteReader())
+                            using (var reader = query.ExecuteReader())
                             {
                                 while (reader.Read())
                                 {
-                                    if(reader.GetInt32(0)==0)
+                                    if (reader.GetInt32(0) == 0)
                                     {
                                         MessageBox.Show("Выберите доступный вам ID");
                                         return;
@@ -117,7 +115,7 @@ namespace kourort
                             {
                                 while (reader.Read())
                                 {
-                                    if (reader.GetInt32(0) >0)
+                                    if (reader.GetInt32(0) > 0)
                                     {
                                         return;
                                     }
@@ -130,9 +128,9 @@ namespace kourort
                             query.Parameters.Clear();
                             int maxValue = 0;
                             query.CommandText = "SELECT max(`ID`) FROM `kourort-user-list`;";
-                                using(var reader = query.ExecuteReader())
+                            using (var reader = query.ExecuteReader())
                             {
-                                while(reader.Read())
+                                while (reader.Read())
                                 {
                                     try
                                     {
@@ -142,7 +140,6 @@ namespace kourort
                                     {
                                         maxValue = 1;
                                     }
-
                                 }
                             }
                             query.CommandText = "INSERT INTO `kourort`.`kourort-user-list` (`kourort_ID`, `children_ID`, `ID`) VALUES (@kourortid, @id, @maxvalue);";
@@ -177,7 +174,6 @@ namespace kourort
             }
             return false;
         }
-
         private void button2_Click(object sender, EventArgs e)
         {
             if (Int32.TryParse(ID_TextBox.Text.Trim(), out int ID))
@@ -217,21 +213,6 @@ namespace kourort
             {
                 MessageBox.Show("Введите ID");
             }
-        }
-
-        private void ID_TextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
     }
 }

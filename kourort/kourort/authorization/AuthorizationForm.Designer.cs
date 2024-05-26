@@ -46,7 +46,6 @@
             this.label2.Size = new System.Drawing.Size(186, 61);
             this.label2.TabIndex = 9;
             this.label2.Text = "Пароль";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // passwordTextBox
             // 
@@ -57,7 +56,6 @@
             this.passwordTextBox.Size = new System.Drawing.Size(294, 39);
             this.passwordTextBox.TabIndex = 8;
             this.passwordTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.passwordTextBox.TextChanged += new System.EventHandler(this.passwordTextBox_TextChanged);
             // 
             // label1
             // 
@@ -68,7 +66,6 @@
             this.label1.Size = new System.Drawing.Size(160, 61);
             this.label1.TabIndex = 7;
             this.label1.Text = "Логин";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // POST_Button
             // 
@@ -89,7 +86,6 @@
             this.loginTextBox.Size = new System.Drawing.Size(294, 39);
             this.loginTextBox.TabIndex = 5;
             this.loginTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.loginTextBox.TextChanged += new System.EventHandler(this.loginTextBox_TextChanged);
             // 
             // linkLabel1
             // 

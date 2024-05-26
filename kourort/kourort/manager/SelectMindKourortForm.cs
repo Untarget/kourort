@@ -1,12 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Warehouse;
 
@@ -22,16 +16,11 @@ namespace kourort
             addKourortsList();
             addKourortsListBox();
         }
-
-        private void SelectMindKourortForm_Load(object sender, EventArgs e)
-        {
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             if (KourortCheckBox.Checked)
             {
-                if(CreateKourortTextBox.Text.Trim().Length>0)
+                if (CreateKourortTextBox.Text.Trim().Length > 0)
                 {
                     CreateKourort();
                     MessageBox.Show("Ваша заявка была отправлена администрации");
@@ -40,7 +29,7 @@ namespace kourort
             }
             else
             {
-                if(kourortListBox.SelectedIndex>=0)
+                if (kourortListBox.SelectedIndex >= 0)
                 {
                     SelectKourort();
                     MessageBox.Show("Ваша заявка была отправлена администрации");
@@ -65,9 +54,9 @@ namespace kourort
                 using (var query = conn.CreateCommand())
                 {
                     query.CommandText = "SELECT `ID`, `name` FROM `kourort`";
-                    using(var reader = query.ExecuteReader())
+                    using (var reader = query.ExecuteReader())
                     {
-                        while(reader.Read())
+                        while (reader.Read())
                         {
                             kourortsID.Add(reader.GetInt32(0));
                             kourortsName.Add(reader.GetString(1));
@@ -81,7 +70,7 @@ namespace kourort
         {
             kourortListBox.Items.AddRange(kourortsName.ToArray());
         }
-       
+
         private void SelectKourort()
         {
             var builder = new MySqlConnectionStringBuilder
@@ -96,21 +85,21 @@ namespace kourort
                 conn.Open();
                 using (var query = conn.CreateCommand())
                 {
-                    
+
                     query.CommandText = "INSERT INTO `kourort`.`admin-queries` (`process`, `query`, `user_ID`, `user_post_ID`, `kourort_ID`, type) VALUES (@process, @query, @userid, @idpost, @idkourort, 1);";
                     query.Parameters.AddWithValue("@userid", Cookies.ID);
                     query.Parameters.AddWithValue("@idpost", Cookies.post);
-                    query.Parameters.AddWithValue("@idkourort", kourortListBox.SelectedIndex+1);
+                    query.Parameters.AddWithValue("@idkourort", kourortListBox.SelectedIndex + 1);
                     query.Parameters.AddWithValue("@process", "Не рассмотрено");
                     query.Parameters.AddWithValue("@query", $"Прошу зачислить меня, как представителя организации \"{kourortListBox.SelectedItem.ToString()}\".");
                     query.ExecuteNonQuery();
-                    
+
                 }
             }
         }
         private void KourortCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-            if(CreateKourortLabel.Enabled)
+            if (CreateKourortLabel.Enabled)
             {
                 CreateKourortLabel.Enabled = false;
                 CreateKourortTextBox.Enabled = false;
