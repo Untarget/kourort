@@ -25,7 +25,6 @@ namespace kourort
 
         private void SelectMindKourortForm_Load(object sender, EventArgs e)
         {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -98,7 +97,7 @@ namespace kourort
                 using (var query = conn.CreateCommand())
                 {
                     
-                    query.CommandText = "INSERT INTO `kourort`.`admin-queries` (`process`, `query`, `user_ID`, `user_post_ID`, `kourort_ID`) VALUES (@process, @query, @userid, @idpost, @idkourort);";
+                    query.CommandText = "INSERT INTO `kourort`.`admin-queries` (`process`, `query`, `user_ID`, `user_post_ID`, `kourort_ID`, type) VALUES (@process, @query, @userid, @idpost, @idkourort, 1);";
                     query.Parameters.AddWithValue("@userid", Cookies.ID);
                     query.Parameters.AddWithValue("@idpost", Cookies.post);
                     query.Parameters.AddWithValue("@idkourort", kourortListBox.SelectedIndex+1);
@@ -143,7 +142,7 @@ namespace kourort
                 using (var query = conn.CreateCommand())
                 {
 
-                    query.CommandText = "INSERT INTO `kourort`.`amdin-queries` (`process`, `query`, `user_ID`, `user_post_ID`) VALUES (@process, @query, @userid, @idpost);";
+                    query.CommandText = "INSERT INTO `kourort`.`admin-queries` (`process`, `query`, `user_ID`, `user_post_ID`, type) VALUES (@process, @query, @userid, @idpost, 2);";
                     query.Parameters.AddWithValue("@userid", Cookies.ID);
                     query.Parameters.AddWithValue("@idpost", Cookies.post);
                     query.Parameters.AddWithValue("@process", "Не рассмотрено");

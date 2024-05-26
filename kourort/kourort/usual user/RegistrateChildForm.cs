@@ -143,6 +143,7 @@ namespace kourort
                         query.Parameters.AddWithValue("@childrenid", childrenID);
                         query.Parameters.AddWithValue("@query", $"Прошу зачислить моего сына,{secondNameTextBox.Text.Trim()}  {firstNameTextBox.Text.Trim()} {lastNameTextBox.Text.Trim()}, возраста {ageTextBox.Text.Trim()} лет");
                         query.ExecuteNonQuery ();
+                        this.Hide();
                     }
                 }
             }

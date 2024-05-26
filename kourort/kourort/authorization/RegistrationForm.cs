@@ -29,6 +29,7 @@ namespace kourort
                     if (POST())
                     {
                         MessageBox.Show("Вы были успешно зарегестрированы!");
+                        this.Hide();
                     }
                     else
                     {
@@ -43,15 +44,15 @@ namespace kourort
         }
         private bool POST()
         {
-            int userType = 0;
-            int userID=0;
+            int userType = -1;
+            int userID=-1;
             if(KourortUserCheckBox.Checked)
             {
-                userType = 1;
+                userType = 2;
             }
             if(UserCheckBox.Checked)
             {
-                userType = 2;
+                userType = 3;
             }
             var builder = new MySqlConnectionStringBuilder
             {

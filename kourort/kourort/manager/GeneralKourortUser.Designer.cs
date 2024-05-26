@@ -139,6 +139,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "GeneralKourortUser";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.GeneralKourortUser_FormClosing);
             this.Load += new System.EventHandler(this.GeneralKourortUser_Load);

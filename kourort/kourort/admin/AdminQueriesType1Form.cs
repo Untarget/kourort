@@ -88,6 +88,7 @@ namespace kourort.admin
                                 }
                             }
                         }
+                        query.Parameters.Clear();
                         query.CommandText = "UPDATE `kourort`.`admin-queries` SET `process` = 'Принято' WHERE (`ID` = @id)";
                         query.Parameters.AddWithValue("@id", ID);
                         query.ExecuteNonQuery();
@@ -142,6 +143,7 @@ namespace kourort.admin
                                 }
                             }
                         }
+                        query.Parameters.Clear();
                         query.CommandText = "UPDATE `kourort`.`admin-queries` SET `process` = 'Отклонено' WHERE (`ID` = @id)";
                         query.Parameters.AddWithValue("@id", ID);
                         query.ExecuteNonQuery();

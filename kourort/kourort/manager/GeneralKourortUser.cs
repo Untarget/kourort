@@ -59,10 +59,12 @@ namespace kourort
         {
             if(haveKourort())
             {
+                button1.Enabled = false;
                 CreatePeoples.Enabled = true;
             }
             else
             {
+                button1.Enabled = true;
                 CreatePeoples.Enabled = false;
 
             }

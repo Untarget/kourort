@@ -63,6 +63,7 @@ namespace kourort
             {
                 SetInfo();
                 MessageBox.Show("Данные были изменены");
+                this.Hide();
             }
         }
         private bool validation()
